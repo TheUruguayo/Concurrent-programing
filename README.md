@@ -11,8 +11,9 @@ Grab Stick () and Drop Stick (). Sleep () is implemented to be able to appreciat
 program through the interface,
 
 Gloton, Diablo and Normal inherit from the Philosopher class, therefore they inherit all their behaviors and
-they must rewrite all those that distinguish them. In this case, it is the eating method.
-In this way, everyone needs to go through the semafore, dining room (capacity 4), cutlery (capacity 5),
+they must rewrite all those that distinguish them. In this case, it is the eating method, which is different
+for each class.
+This way, everyone needs to go through the semafores, dining room (capacity 4), cutlery (capacity 5),
 modify (capacity 1) and plates (capacity 1) to fulfill all your tasks in each run.
 All classes inherit the run method, which sets the executions concurrently. 
 The method must be used in the following way "@Override" that allows it to be differentiated and used, "public
