@@ -1,5 +1,5 @@
 # Concurrent-programing
-Study, analysis and creation of mixed problem. Focused on the problem of commensal philosophers, a classic problem of concurrency. The second problem used, it is also a classic: problem of readers and writers
+Study, analysis and creation of mixed problem. Focused on the problem of commensal philosophers, a classic problem of concurrency. The second problem used, it is also a classic:  readers and writers
 ## Java
 The Main class is where the methods to initialize processes are found, through start () and
 join (). In this instance, "import java.util.concurrent.Semaphore;" is used. This library allows the use and
