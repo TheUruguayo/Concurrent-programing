@@ -1,9 +1,9 @@
 # Concurrent-programing
-Study, analysis and creation of mixed problem. Focused on the problem of commensal philosophers, a classic problem of concurrency. The second problem used, it is also a classic:  readers and writers
+Study, analysis and creation of a mixed problem. Focused on the problem of commensal philosophers, a classic in the topic of concurrent programing. The second problem used, it is also a classic:  readers and writers
 ## Java
-The Main class is where the methods to initialize processes are found, through start () and
+The Main class is where the methods to initialize the processes are found, through start () and
 join (). In this instance, "import java.util.concurrent.Semaphore;" is used. This library allows the use and
-traffic light management. You need to use exception handling for correct operation. Every time that an attempt is made to request “entry” from a semaphore, we will have to add the corresponding try and catch to this exception.
+semafore management. You need to use exception handling for correct operation. Every time that an attempt is made to request “entry” from a semaphore, we will have to add the corresponding try and catch to this exception.
 In Share, the variables are declared to establish the shared resources, which will be acquired by the
 processes: plates and sticks. The use of semofores will then be to protect these two variables.
 "Philosopher" is the abstract class (not instantiated) where the philosopher is defined, along with the sleep () methods,
